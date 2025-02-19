@@ -1,0 +1,41 @@
+.container {
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.quizHeader {
+  width: 100%;
+  max-width: 32rem;
+  margin-bottom: 1.5rem;
+}
+
+.quizInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.questionCounter {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.progressBar {
+  width: 100%;
+  height: 0.5rem;
+  background-color: #e5e7eb;
+  border-radius: 9999px;
+}
+
+.progressFill {
+  height: 100%;
+  background-color: #2563eb;
+  border-radius: 9999px;
+  transition: width 0.3s;
+}

@@ -1,0 +1,73 @@
+.container {
+  width: 100%;
+  max-width: 32rem;
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.trophy {
+  width: 4rem;
+  height: 4rem;
+  margin: 0 auto 1rem;
+  color: #eab308;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.score {
+  font-size: 1.125rem;
+}
+
+.scoreValue {
+  font-weight: 700;
+}
+
+.historySection {
+  margin-bottom: 1.5rem;
+}
+
+.historyTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.attemptsList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.attemptItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  background-color: #f9fafb;
+  border-radius: 0.5rem;
+}
+
+.newQuizButton {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.newQuizButton:hover {
+  background-color: #1d4ed8;
+}

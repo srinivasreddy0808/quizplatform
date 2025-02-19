@@ -1,0 +1,35 @@
+.explosion {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 50px auto;
+}
+
+.explosionCircle {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: orange;
+  border-radius: 50%;
+  opacity: 0;
+  animation: explode 1s ease-out infinite;
+}
+
+.delay1 {
+  animation-delay: 0.2s;
+}
+
+.delay2 {
+  animation-delay: 0.4s;
+}
+
+@keyframes explode {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
