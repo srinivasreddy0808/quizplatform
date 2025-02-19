@@ -4,6 +4,6 @@ dashboard after quiz attempting
 total score and attempt history
 interactive design
 
--- to run locally  download the code from github and and install npm packages and say npm run dev
+-- to run locally download the code from github and and install npm packages and say npm run dev
 
----
+--- live website link https://quizplatform-psi.vercel.app/
