@@ -77,7 +77,6 @@ const QuestionCard = ({
       </div>
     );
   }
-  console.log(selectedAnswer, "selectedAnswer");
 
   return (
     <div className={styles.card}>
@@ -90,7 +89,10 @@ const QuestionCard = ({
             selectedAnswer === index &&
             index !== question.correctAnswer;
 
-          console.log(index, selectedAnswer, question.correctAnswer);
+          {
+            /* isCorrect is for rendering green background  and isWrong is for rendering red 
+            background based on user selection and the correct answer*/
+          }
 
           return (
             <button

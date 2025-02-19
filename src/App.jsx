@@ -139,8 +139,7 @@ function App() {
           />
         </div>
       </div>
-      {console.log(quizState, "quizState")}
-
+      {/* question card is render withat aparticular question */}
       <QuestionCard
         question={currentQuestion}
         selectedAnswer={
